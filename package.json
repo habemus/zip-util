@@ -1,0 +1,26 @@
+{
+  "name": "zip-util",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "graceful-fs": "^4.1.6",
+    "mkdirp": "^0.5.1",
+    "request": "^2.74.0",
+    "tmp": "0.0.28",
+    "yauzl": "^2.6.0"
+  },
+  "devDependencies": {
+    "fs-extra": "^0.30.0",
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^1.1.1",
+    "gulp-mocha": "^3.0.1",
+    "mockery": "^1.7.0"
+  }
+}
