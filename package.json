@@ -1,6 +1,6 @@
 {
   "name": "zip-util",
-  "version": "0.0.0",
+  "version": "1.0.0-alpha",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -10,11 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.4.6",
+    "glob-stream": "^5.3.5",
     "graceful-fs": "^4.1.6",
     "mkdirp": "^0.5.1",
     "request": "^2.74.0",
     "tmp": "0.0.28",
-    "yauzl": "^2.6.0"
+    "yauzl": "^2.6.0",
+    "yazl": "^2.4.1"
   },
   "devDependencies": {
     "fs-extra": "^0.30.0",
