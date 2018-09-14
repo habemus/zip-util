@@ -1,6 +1,6 @@
 {
   "name": "zip-util",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -23,6 +23,7 @@
     "gulp": "^3.9.1",
     "gulp-istanbul": "^1.1.1",
     "gulp-mocha": "^3.0.1",
-    "mockery": "^1.7.0"
+    "mockery": "^1.7.0",
+    "should": "^13.2.3"
   }
 }
